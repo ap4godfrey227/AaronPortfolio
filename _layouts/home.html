@@ -74,10 +74,10 @@ layout: default
       <div class="tab-content mt-3">
         {% for section in site.data.sections %}
           {% if section.first %}
-            {% if section.name == "Publications" %}
-              <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel">
+            {% if section.name == "Presentations" %}
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
-                <p class="card-text"></p>
+                <p class="card-text"></p>              
               </div>
             {% else %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
@@ -85,12 +85,7 @@ layout: default
               </div>
             {% endif %}
           {% else %}  
-            {% if section.name == "Presentations" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-                <p><i>{{section.description}}</i></p>
-                <p class="card-text"></p>              
-              </div>
-            {% elsif section.name == "Projects" %}
+            {% if section.name == "Projects" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
