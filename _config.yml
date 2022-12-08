@@ -1,12 +1,3 @@
-# =======================================#
-# -----------DUMBARTON THEME-------------#
-# ----------------By: Tyler Butler-------#
-#-----------------https://tbutler.org----#
-#========================================#
-
-# =======================================#
-# -----------BASE SETTINGS---------------#
-#========================================#
 
 title: Aaron Godfrey Portfolio 
 email: 
@@ -20,7 +11,7 @@ image_alt: A minimalistic jekyll theme for academic    # image description
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Aaron Godfrey 
-profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
+profile_image: /assets/img/pfp.jpg
 occupation: Data Scientist
 snippet:
 twitter: 
