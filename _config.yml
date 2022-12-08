@@ -11,7 +11,7 @@ image_alt: A minimalistic jekyll theme for academic    # image description
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Aaron Godfrey 
-profile_image: /assets/img/pfp.jpg
+profile_image: /assets/img/avatar/pfp.jpg
 occupation: Data Scientist
 snippet:
 twitter: 
