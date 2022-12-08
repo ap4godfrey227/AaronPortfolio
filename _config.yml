@@ -8,30 +8,30 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Dumbarton 
+title: Aaron Godfrey Portfolio 
 email: 
 description: a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://AaronPortfolio.github.io"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/dumbarton.png               # used to generate site link preview
 image_alt: A minimalistic jekyll theme for academic    # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
+author: Aaron Godfrey 
 profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
-occupation: 
+occupation: Data Scientist
 snippet:
-twitter: tbutler0x90
-github: tcbutler320
-linkedin: tyler-b-a700a1aa
+twitter: 
+github: ap4godfrey227
+linkedin: Aaron Godfrey
 stackoverflow: '12935605'
-website: https://tbutler.org
+website:
 codepen: 
 medium: 
-email: developer.tbutler@gmail.com
-keybase: tbutler320
+email: ap4godfrey@gmail.com
+keybase:
 pgp: 
 ctftime: 
 phonenumber: 
@@ -111,23 +111,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# =======================================#
-# -----JEKYLL SCHOLAR SETTINGS-----------#
-#========================================#
-scholar:
-  last_name: Dumbarton
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: 
-  query: "@*"
 
 # =======================================#
 # ------------CDN SETTINGS---------------#
