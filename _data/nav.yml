@@ -4,13 +4,7 @@ links:
 - title: About
   url: about.html
 
-- title: Publications
-  url: publications.html
-
-- title: Blog
-  url: blog.html
-
-- title: Vitae
+- title: Resume
   url: /assets/pdf/vitae.pdf
 
 - title: Contact
