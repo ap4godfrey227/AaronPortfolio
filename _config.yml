@@ -4,7 +4,7 @@ email:
 description: a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://AaronPortfolio.github.io"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/dumbarton.png               # used to generate site link preview
+image: /assets/img/avatar/Pfp.jpg            # used to generate site link preview
 image_alt: A minimalistic jekyll theme for academic    # image description
 
 # =======================================#
